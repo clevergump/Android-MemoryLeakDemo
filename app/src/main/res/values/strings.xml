@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MemoryLeakDemo</string>
+    <string name="leak_title">会产生内存泄漏的写法</string>
+    <string name="fix_leak_title">内存泄漏的修复</string>
+    <string name="goto_fixleak_page">点击跳转到 FixPhoneListenerLeakActivity, 展示内存泄漏被修复的现象</string>
+    <string name="activity_phone_listener_leak">PhoneListenerLeakActivity</string>
+    <string name="activity_fix_phone_listener_leak">FixPhoneListenerLeakActivity</string>
+    <string name="activity_static_leak">StaticLeakActivity</string>
+    <string-array name="leak_list">
+        <item>展示静态变量引起的内存泄漏</item>
+        <item>展示匿名内部类/未取消某些特殊监听器引起的内存泄漏</item>
+    </string-array>
+
+</resources>
